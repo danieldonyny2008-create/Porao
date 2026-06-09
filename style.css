@@ -1,0 +1,10 @@
+.Imagem-footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5px;
+}
+
+.Imagem-footer img{
+    Width: 15%
+}

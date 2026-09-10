@@ -12,20 +12,46 @@ body{
     Width: 15%
 }
 
-header .homer nav ul {
+header{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+header .homer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homer nav ul {
     list-style-type: none;
 }
 
-header .homer nav ul li{
+.homer nav ul li{
     display: inline-block;
     margin: 0 40px;
-    color:aliceblue;
+    font-family: "Comic Relief", system-ui;
     
+}
+
+.homer nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-jogar a button{
+    font-family: "Comic Relief", system-ui;
+    
+}
+.homer  nav ul li a:hover{
+    color:aqua
 }
 
 .titulo{
     font-family: "Honk", system-ui;
 }
+
 header {
     background-color: rgb(171, 106, 0);
     

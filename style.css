@@ -30,7 +30,7 @@ header .homer{
 
 .homer nav ul li{
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 50px;
     font-family: "Comic Relief", system-ui;
     
 }
@@ -38,18 +38,28 @@ header .homer{
 .homer nav ul li a {
     text-decoration: none;
     color: aliceblue;
+    
 }
 
 .btn-jogar a button{
     font-family: "Comic Relief", system-ui;
-    
+    background-color: transparent;
+    color: rgb(253, 250, 83);
+    font-size: 25px;
+}
+
+.btn-jogar a button:hover{
+    color:aqua;
+    transform: scale(1.25);
+    transition: 50ms;
 }
 .homer  nav ul li a:hover{
-    color:aqua
+    color:aqua;
 }
 
 .titulo{
     font-family: "Honk", system-ui;
+    font-size: 30px;
 }
 
 header {

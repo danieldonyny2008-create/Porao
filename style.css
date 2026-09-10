@@ -5,6 +5,27 @@
     padding: 5px;
 }
 
+body{
+    background-color: rgb(248, 186, 100);
+}
 .Imagem-footer img{
     Width: 15%
+}
+
+header .homer nav ul {
+    list-style-type: none;
+}
+
+header .homer nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+    
+}
+
+.titulo{
+    font-family: "Honk", system-ui;
+}
+header {
+    background-color: rgb(171, 106, 0);
+    
 }

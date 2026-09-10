@@ -19,6 +19,7 @@ header .homer nav ul {
 header .homer nav ul li{
     display: inline-block;
     margin: 0 40px;
+    color:aliceblue;
     
 }
 

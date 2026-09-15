@@ -22,6 +22,7 @@ header .homer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .homer nav ul {
@@ -62,7 +63,27 @@ header .homer{
     font-size: 30px;
 }
 
+.titulo:hover{
+    transform: scale(10);
+    transition: 1s;
+}
 header {
-    background-color: rgb(171, 106, 0);
     
+    height: 20vh;
+    background-image: url(imagens/CastanhaLaranja.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.joao{
+    
+    font-size: 30px;
+}
+
+.what{
+   
+    font-size: 30px;
 }

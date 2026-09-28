@@ -80,10 +80,31 @@ header {
 
 .joao{
     
-    font-size: 30px;
+    font-size: 50px;
+    font-family: "Honk", system-ui;
+}
+
+.descricao{
+   
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
 }
 
 .what{
-   
     font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.home{
+    font-family: "Roboto Mono", monospace;
+}
+
+.conheca-joao{
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.o-gato-agiota{
+    font-size: 50px;
+    font-family: "Honk", system-ui;
 }

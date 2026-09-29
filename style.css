@@ -82,6 +82,7 @@ header {
     
     font-size: 50px;
     font-family: "Honk", system-ui;
+    
 }
 
 .descricao{
@@ -97,6 +98,7 @@ header {
 
 .home{
     font-family: "Roboto Mono", monospace;
+    
 }
 
 .conheca-joao{
@@ -107,4 +109,17 @@ header {
 .o-gato-agiota{
     font-size: 50px;
     font-family: "Honk", system-ui;
+}
+
+.feedbacko{
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+}
+.death{
+    font-size: 100px;
+    font-family: "Honk", system-ui;
+}
+
+.idade{
+    font-family: "Roboto Mono", monospace;
 }

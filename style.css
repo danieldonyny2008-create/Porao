@@ -81,45 +81,46 @@ header {
 .joao{
     
     font-size: 50px;
-    font-family: "Honk", system-ui;
+    font-family: "Slackey", serif;
     
 }
 
 .descricao{
    
-    font-size: 20px;
-    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    font-family: "Love Ya Like A Sister", serif;
 }
 
 .what{
-    font-size: 30px;
-    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    font-family: "Love Ya Like A Sister", serif;
 }
 
 .home{
-    font-family: "Roboto Mono", monospace;
+    font-family: "Slackey", serif;
     
 }
 
 .conheca-joao{
-    font-size: 20px;
-    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    font-family: "Love Ya Like A Sister", serif;
 }
 
 .o-gato-agiota{
     font-size: 50px;
-    font-family: "Honk", system-ui;
+    font-family: "Slackey", serif;
 }
 
 .feedbacko{
-    font-size: 20px;
-    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    font-family: "Love Ya Like A Sister", serif;
 }
 .death{
     font-size: 100px;
-    font-family: "Honk", system-ui;
+    font-family: "Eater", serif;
 }
 
 .idade{
-    font-family: "Roboto Mono", monospace;
+    font-family: "Love Ya Like A Sister", serif;
+    background-color: antiquewhite;
 }

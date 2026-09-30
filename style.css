@@ -9,7 +9,7 @@ body{
     background-color: rgb(248, 186, 100);
 }
 .Imagem-footer img{
-    Width: 15%
+    Width: 15%;
 }
 
 header{
@@ -82,6 +82,12 @@ header {
     
     font-size: 50px;
     font-family: "Slackey", serif;
+    text-align: center;
+}
+
+.imagem-joao{
+    justify-content: center;
+    display: flex;
     
 }
 
@@ -104,11 +110,26 @@ header {
 .conheca-joao{
     font-size: 25px;
     font-family: "Love Ya Like A Sister", serif;
+    text-align: center;
 }
 
 .o-gato-agiota{
     font-size: 50px;
     font-family: "Slackey", serif;
+}
+.gameplay-titulo{
+    font-size: 40px;
+    font-family: "Love Ya Like A Sister", serif;
+}
+.challenging a button{
+    font-family: "Comic Relief", system-ui;
+    background-color: transparent;
+    color: rgb(253, 250, 83);
+    font-size: 25px;
+}
+.gameplay{
+    font-size: 25px;
+    font-family: "Love Ya Like A Sister", serif;    
 }
 
 .feedbacko{
@@ -123,4 +144,17 @@ header {
 .idade{
     font-family: "Love Ya Like A Sister", serif;
     background-color: antiquewhite;
+}
+
+.voltar a button{
+    font-family: "Comic Relief", system-ui;
+    background-color: rgb(150, 39, 11);
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+.voltar a button:hover{
+    color:aqua;
+    transition: 50ms;
 }

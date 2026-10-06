@@ -63,10 +63,6 @@ header .homer{
     font-size: 30px;
 }
 
-.titulo:hover{
-    transform: scale(10);
-    transition: 1s;
-}
 header {
     
     height: 20vh;

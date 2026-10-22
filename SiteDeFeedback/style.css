@@ -1,6 +1,21 @@
 body{
     background-color: rgb(248, 186, 100);
+    font-family: "Love Ya Like A Sister", serif;
+    font-size: 25px;
+}
 }
 .Imagem-footer img{
     Width: 15%;
+}
+
+.feed-image{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+.feedbacko-titulo{
+    background-color: antiquewhite;
+    font-family: "Slackey", serif;
+
 }

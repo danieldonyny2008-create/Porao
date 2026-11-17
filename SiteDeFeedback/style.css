@@ -3,19 +3,45 @@ body{
     font-family: "Love Ya Like A Sister", serif;
     font-size: 25px;
 }
-}
+
 .Imagem-footer img{
     Width: 15%;
 }
 
 .feed-image{
     display: flex;
+    justify-content: center;
     width: 300px;
     height: 300px;
 }
 
+header{
+    background-color: brown;
+    background-size: cover;
+}
 .feedbacko-titulo{
-    background-color: antiquewhite;
     font-family: "Slackey", serif;
+    color:antiquewhite;
+    text-align: center;
+    font-size: larger;
 
 }
+
+.voltar a button{
+    font-family: "Comic Relief", system-ui;
+    background-color: rgb(150, 39, 11);
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+.voltar a button:hover{
+    color:aqua;
+    transition: 50ms;
+}
+
+.box{
+    background-color: antiquewhite;
+    
+}
+

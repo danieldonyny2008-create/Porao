@@ -82,11 +82,18 @@ header {
 }
 
 .imagem-joao{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     width: 450px;
     height: 450px;
     
+}
+
+.imagem-gato-agiota{
+    display:inline-flex;
+    justify-content: center;
+    width: 650px;
+    height: 650px;
 }
 
 .descricao{

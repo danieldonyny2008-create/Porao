@@ -17,6 +17,7 @@ header {
 .titulo{
     font-family: "Honk", system-ui;
     font-size: 30px;
+    text-align: top;
 }
 
 header{
@@ -44,7 +45,11 @@ header .homer{
     color: aliceblue;
     
 }
-
+.btn-jogar-mobile{
+    text-align: left;
+    margin-top: -20px;
+    
+}
 .btn-jogar a button{
     font-family: "Comic Relief", system-ui;
     background-color: transparent;
@@ -83,7 +88,7 @@ header .homer{
     font-family: "Slackey", serif;
     color:antiquewhite;
     text-align: center;
-    font-size: larger;
+    font-size: 40px;
     background-color: rgb(150, 39, 11);
 
 }
@@ -91,6 +96,15 @@ header .homer{
 .voltar a button:hover{
     color:aqua;
     transition: 50ms;
+}
+
+.btn-jogar-mobile a button{
+    font-family: "Comic Relief", system-ui;
+    background-color: brown;
+    color: rgb(253, 250, 83);
+    font-size: 35px;
+    text-align: left;
+
 }
 
 .box{
@@ -131,4 +145,49 @@ legend{
     transition: 50ms;
     color: aqua;
 }
+
+@media screen and (min-width: 1115px) {
+    .btn-jogar-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .titulo{
+        font-size: 20px;
+        text-align: left;
+    }
+    .btn-jogar{
+        display: none;
+    }
+
+    .feedbacko-titulo{
+        font-size: 20px;
+    }
+
+    header{
+        height: 30vh;
+    }
+
+    .homer nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Aumenta a distância vertical entre cada item */
+        align-items: flex-start; /* Alinha os itens à esquerda dentro da lista */
+        padding-right: 20px; /* Dá um respiro da borda direita da tela */
+
+    
+    }
+
+    .homer nav ul li{
+        text-align: left;
+        margin-right: 30px;
+    }
+
+    .homer nav ul li a{
+        font-size: 20px;
+    }
+}
+
+
 

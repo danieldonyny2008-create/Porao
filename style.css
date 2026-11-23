@@ -51,12 +51,12 @@ header .homer{
     transition: 50ms;
 }
 
+
 .btn-jogar-mobile a button{
     font-family: "Comic Relief", system-ui;
     background-color: brown;
     color: rgb(253, 250, 83);
     font-size: 35px;
-
 }
 
 .homer  nav ul li a:hover{
@@ -184,8 +184,8 @@ header {
     .death{
         font-size: 26px;
     }
-    .conheca-joao{
-        font-size: 15px;
+    .joao{
+        font-size: 30px;
     }
 
     .titulo{
@@ -196,10 +196,19 @@ header {
         display: none;
     }
 
-    .homer nav ul li a{
-        font-size: 10;
-        margin: 0 80;
+    header{
+        height: 30vh;
     }
 
+    .homer nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Aumenta a distância vertical entre cada item */
+    
+    }
+
+    .homer nav ul li a{
+        font-size: 20px;
+    }
 }
 

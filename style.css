@@ -50,6 +50,15 @@ header .homer{
     transform: scale(1.25);
     transition: 50ms;
 }
+
+.btn-jogar-mobile a button{
+    font-family: "Comic Relief", system-ui;
+    background-color: brown;
+    color: rgb(253, 250, 83);
+    font-size: 35px;
+
+}
+
 .homer  nav ul li a:hover{
     color:aqua;
 }
@@ -154,5 +163,43 @@ header {
 .voltar a button:hover{
     color:aqua;
     transition: 50ms;
+}
+
+@media screen and (min-width: 1115px) {
+    .btn-jogar-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .imagem-joao{
+        width: 350px;
+        height: 350px;
+    }
+    .imagem-gato-agiota{
+        width: 400px;
+        height: 400px;
+
+    }
+    .death{
+        font-size: 26px;
+    }
+    .conheca-joao{
+        font-size: 15px;
+    }
+
+    .titulo{
+        font-size: 20px;
+        text-align: top;
+    }
+    .btn-jogar{
+        display: none;
+    }
+
+    .homer nav ul li a{
+        font-size: 10;
+        margin: 0 80;
+    }
+
 }
 

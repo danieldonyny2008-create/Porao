@@ -42,6 +42,7 @@ header .homer{
     font-family: "Comic Relief", system-ui;
     background-color: transparent;
     color: rgb(253, 250, 83);
+    background-color: brown;
     font-size: 25px;
 }
 

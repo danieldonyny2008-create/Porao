@@ -210,5 +210,9 @@ header {
     .homer nav ul li a{
         font-size: 20px;
     }
+
+    .voltar a button{
+        font-size: 40px;
+    }
 }
 
